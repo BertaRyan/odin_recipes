@@ -157,7 +157,7 @@ FONTS
 
 /*
    ==============================
-    LASAGNA PAGE 
+            LASAGNA PAGE ^
     =============================
  */
 .pizza-img {
@@ -251,3 +251,104 @@ h5 {
     color:cadetblue;
     transition:1s;
 }
+
+/*
+ ==============================
+            PIZZA PAGE ^ 
+ ==============================
+ */
+
+ .main-img-container{
+    text-align:center;
+    background-color:#f3e056;
+    padding:3%;
+   }
+
+   .main-img-container img{
+    width:50%;
+    height:50%;
+   }
+
+   .stirfry-head{
+    text-align:center;
+    margin-top:30px;
+    text-decoration:underline;
+    margin-bottom:30px;
+   }
+
+   .stifry-description{
+    width:85%;
+    margin:0 auto;
+    font-size:1.3em;
+   }
+
+   .stirfry-faq{
+    margin-top:40px;
+   }
+
+   .stirfry-faq {
+    text-align:center;
+    font-size:1.4em;
+    
+   }
+
+   .content-container{
+    margin:50px 0;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+   }
+
+   .ingredient-container{
+   flex-basis:30%;
+   background-color:lightgreen;
+   padding:2%;
+   text-align:center;
+   border-radius:20%;
+   box-shadow: 22px 22px 16px 4px rgba(243, 224, 86, 0.5);
+-webkit-box-shadow: 22px 22px 16px 4px rgba(243, 224, 86, 0.5);
+   }
+
+   .ingredient-container h3{
+    text-decoration:underline;
+    margin-bottom:20px;
+   }
+   .ingredient-container li{
+    font-size:1.5em;
+    list-style-position:inside;
+    margin-bottom:5px;
+    border-bottom:3px solid white;
+   }
+
+   .cooking-direction-container{
+    flex-basis:55%;
+   }
+
+   .cooking-direction-container h4{
+font-size:1.5em;
+   }
+
+   .cooking-direction-container li p{
+font-size:1.3em;
+   }
+
+   .footer-nav{
+    text-align:center;
+    padding:20px 0;
+    background-color:black;
+    color:white;
+    font-size:2em;
+   }
+
+   .footer-nav button{
+padding:8px 20px;
+background-color:lightgreen;
+color:black;
+margin-bottom:10px;
+   }
+
+   .footer-nav button:hover{
+background-color:white;
+transition:1s;
+   }
+   
