@@ -17,6 +17,8 @@ FONTS
     box-sizing: border-box;
 }
 
+
+
 .img-container {
 
     text-align: center;
@@ -82,3 +84,170 @@ FONTS
  =======================
  */
 
+.main-img {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 3%;
+    border-top: 15px double black;
+    border-bottom: 15px double black;
+}
+
+.main-img img {
+    border-radius: 20%;
+}
+
+.recipe-title {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+
+}
+
+.page-description {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.recipe-info-container {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cooking-info-container {
+    flex-basis: 15%;
+    background-color: lightsalmon;
+    margin: 0 auto;
+    padding-left: 100px;
+    border: 5px dotted black;
+}
+
+.ingredients-container {
+    flex-basis: 25%;
+    margin: 0 auto;
+}
+
+.direction-container {
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.direction-head-txt {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.direction-container p {
+    font-size: 1.3em;
+}
+
+.link-container {
+    text-align: center;
+    margin-left: 600px;
+    font-size: 1.5em;
+    width: 40%;
+    background-color: aquamarine;
+}
+
+/*
+   ==============================
+    LASAGNA PAGE 
+    =============================
+ */
+.pizza-img {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 3%;
+}
+
+.pizza-title {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    text-decoration: underline;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.pizza-desc {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-size: 2em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pizza-instructions {
+    width: 40%;
+    margin-bottom: 50px;
+    border: 5px solid cadetblue;
+    background-color: rgb(216, 214, 214);
+    box-shadow: 10px 13px 15px 8px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 10px 13px 15px 8px rgba(0, 0, 0, 0.5);
+}
+
+.pizza-instructions p {
+    font-size: 1.5em;
+}
+
+.cooking-instructions-container {
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+.instructions-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cooking-instructions-container li {
+    font-size: 1.4em;
+}
+
+.cooking-instructions-container li h3 {
+    font-size: 1.2em;
+}
+
+.footer-nav-links{
+    text-align:center;
+}
+
+.footer-nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size:2em;
+    
+}
+
+.footer-nav-links button{
+    color:white;
+    cursor:pointer;
+    font-size:1.3em;
+    padding:15px 40px;
+    margin-top:50px;
+    text-align:center;
+    background-color:cadetblue;
+}
+
+.footer-nav-links button:hover{
+    background-color:white;
+    color:cadetblue;
+    transition:1s;
+}
